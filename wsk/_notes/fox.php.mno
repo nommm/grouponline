@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_group" value="name:gid;datatype:string,name:gname;datatype:string,name:gtotal;datatype:string,name:gmember;datatype:string,name:gplace;datatype:string" />
+</info>

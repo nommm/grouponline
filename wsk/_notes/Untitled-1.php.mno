@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:gid;datatype:string,name:gname;datatype:string,name:gtotal;datatype:int,name:gamount;datatype:int,name:gplace;datatype:string,name:tcuid;datatype:string,name:tcnametitle;datatype:string,name:tcname;datatype:string,name:tctel;datatype:string,name:tcemail;datatype:string,name:tcpassword;datatype:string,name:tcuserlevel;datatype:string,name:gid;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:gname;datatype:string,name:gtotal;datatype:string,name:gmember;datatype:string,name:gplace;datatype:string,name:tcfirstname;datatype:string,name:tclastanme;datatype:string" />
+</info>

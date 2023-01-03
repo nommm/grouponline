@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background: #e2defd;
+}
+
+.nav {
+    background: #9082ff;
+}
+
+.bottomnav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottomnav {
+    background: #9082ff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav2 {
+    text-align: end;
+    overflow: hidden;
+}
+
+.nav2 a {
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.nav2 a:hover {
+    border-bottom: 3px solid#c2b9ff;
+    background-color: #c2b9ff;
+    color: black;
+    transition: 0.2s;
+    border-radius: 15px 15px 0 0;
+}
+
+.nav2 a.active {
+    border-radius: 15px 15px 0 0;
+    color: #000;
+    background: #e2defd;
+    border-bottom: 3px solid#e2defd;
+}
+
+a {
+    text-align: end;
+    padding: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    transition: 0.5s;
+}
+
+h1:hover,
+th:hover {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+td:hover {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+th {
+    transition: 0.5s;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    background: #9082ff;
+    font-size: 20px;
+}
+
+td {
+    transition: 0.5s;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+
+tr {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background: #d4d2e9
+}
+
+.lefttable {
+    border-radius: 30px 0px 0px 0px;
+}
+
+.righttable {
+    border-radius: 0px 30px 0px 0px;
+}
+
+.btn {
+    background: none;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #594daf;
+    background: #594daf;
+    color: white;
+}
+
+.user_name {
+    font-size: 90%;
+    color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.search {
+    margin-top: 1rem;
+}
+
+.search input {
+    border-radius: 15px 0px 0px 0px;
+    background: none;
+    padding: 6px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #9082ff;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.search input:hover,
+.search input:focus {
+    color: #594daf;
+    padding: 6px 50px 6px 50px;
+    border-radius: 15px 0px 0px 15px;
+    background: rgba(255, 255, 255, 0.362);
+}
+
+.search_btn {
+    transition: 0.5s;
+    background: none;
+    margin-left: -4px;
+    padding: 6px 10px 6px 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #9082ff;
+    border-radius: 0px 15px 0px 0px;
+    cursor: pointer;
+}
+
+.search_btn:hover {
+    background: rgba(255, 255, 255, 0.362);
+    color: #594daf;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.nav2 {
+    transition: 0.5s;
+}
+
+.rightbtable {
+    border-radius: 0px 0px 30px 0px;
+}
+
+.leftbtable {
+    border-radius: 0 0px 0 30px;
+}
+
+footer p:hover {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 885px) and (min-width: 450px) {
+    td {
+        font-size: 12px;
+        padding: 8px;
+    }
+    th {
+        font-size: 15px;
+        padding: 15px;
+    }
+    .btn {
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 451px) and (min-width: 1px) {
+    body {
+        background-color: rgb(0, 0, 0);
+    }
+}
